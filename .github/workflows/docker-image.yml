@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        uses: docker/metadata-action@master
         with:
           images: |
             my-docker-hub-namespace/my-docker-hub-repository
