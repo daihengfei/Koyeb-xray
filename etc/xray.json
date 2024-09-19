@@ -48,5 +48,11 @@
             {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]},
             {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
         ]
-    }
+    },
+
+    "log": {
+    "access": "/var/log/Xray/access.log",
+    "error": "/var/log/Xray/error.log",
+    "loglevel": "info"
+  }
 }
