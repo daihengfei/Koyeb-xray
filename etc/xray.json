@@ -51,8 +51,8 @@
     },
 
     "log": {
-        "access": "/var/log/Xray/access.log",
-        "error": "/var/log/Xray/error.log",
+        "access": "/var/log/access.log",
+        "error": "/var/log/error.log",
         "loglevel": "info"
   }
 }
